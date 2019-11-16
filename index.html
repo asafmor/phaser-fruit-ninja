@@ -14,7 +14,7 @@
             margin: 0;
         }
     </style>
-</head>F
+</head>
 
 <body>
     <div id="game"></div>
@@ -93,7 +93,7 @@
             group.enableBody = true;
             group.physicsBodyType = Phaser.Physics.ARCADE;
             sprites.forEach(sprite => {
-                group.add(game.make.sprite(3000, 3000, sprite));
+                group.add(game.make.sprite(30000, 30000, sprite));
             })
             group.setAll('checkWorldBounds', true);
             group.setAll('outOfBoundsKill', true);
